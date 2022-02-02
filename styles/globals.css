@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.font {
+  color: rgb(80, 74, 74);
+}
+@media screen and (max-width: 600px) {
+  .font {
+    font-size: 8px;
+  }
+}
